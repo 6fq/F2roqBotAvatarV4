@@ -18,7 +18,7 @@ const dbq = new QuickDB();
 client.on("ready", async () =>{
   function _0x1b8f(_0x256ac7,_0x50e1c1){var _0x463353=_0x4633();return _0x1b8f=function(_0x1b8fb0,_0x3a9b32){_0x1b8fb0=_0x1b8fb0-0x136;var _0x4cf334=_0x463353[_0x1b8fb0];return _0x4cf334;},_0x1b8f(_0x256ac7,_0x50e1c1);}var _0x5d38d8=_0x1b8f;(function(_0x492027,_0x537763){var _0x52db03=_0x1b8f,_0x50bbc4=_0x492027();while(!![]){try{var _0x5a9f76=-parseInt(_0x52db03(0x13c))/0x1*(-parseInt(_0x52db03(0x141))/0x2)+-parseInt(_0x52db03(0x142))/0x3+-parseInt(_0x52db03(0x137))/0x4*(-parseInt(_0x52db03(0x13e))/0x5)+-parseInt(_0x52db03(0x13a))/0x6*(-parseInt(_0x52db03(0x138))/0x7)+parseInt(_0x52db03(0x13d))/0x8+parseInt(_0x52db03(0x13f))/0x9+-parseInt(_0x52db03(0x136))/0xa;if(_0x5a9f76===_0x537763)break;else _0x50bbc4['push'](_0x50bbc4['shift']());}catch(_0x11d2bb){_0x50bbc4['push'](_0x50bbc4['shift']());}}}(_0x4633,0x96bbd),console[_0x5d38d8(0x139)](_0x5d38d8(0x140)+client['user']['id']+_0x5d38d8(0x143)),console[_0x5d38d8(0x139)](client[_0x5d38d8(0x13b)]['tag']+'\x20is\x20ready'));function _0x4633(){var _0x40a7b3=['2919897PsJTZR','https://discord.com/api/oauth2/authorize?client_id=','2JdYoMP','679899QUBoNA','&permissions=8&scope=bot','22807290vYpMIG','780196uGZHlz','7OcQqMg','log','7261602WAIvPq','user','104580ptoplQ','4081936nowdhc','25CFaJBP'];_0x4633=function(){return _0x40a7b3;};return _0x4633();}
 var ms = 10000;
-client.user.setPresence({ activities: [{ name: "مالو هاظ", type: "STREAMING" , url: "https://www.twitch.tv/vice-stor"}]});
+client.user.setPresence({ activities: [{ name: "pewencrypted..", type: "STREAMING" , url: "https://www.twitch.tv/vice-stor"}]});
 client.user.setStatus("dnd")
 });
 
