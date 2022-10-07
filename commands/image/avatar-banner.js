@@ -1,4 +1,3 @@
-```js
 const { Client , Message , MessageEmbed } = require("discord.js")
 const axios = require("axios")
 
@@ -47,4 +46,4 @@ message.channel.send({embeds : [embed]})
 
   
   },
-};```
+};
