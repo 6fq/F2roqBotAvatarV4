@@ -11,7 +11,7 @@ const cloudinary = require("cloudinary").v2;
 const canvacord = require("canvacord");
 const Canvas = require("canvas");
 const editor = require("editor-canvas");
-
+const axios = require("axios")
 const { QuickDB } = require("quick.db");
 const dbq = new QuickDB();
 
