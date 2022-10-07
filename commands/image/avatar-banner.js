@@ -31,7 +31,7 @@ if(banner){
   .setDescription(`${user.tag}'s Banner`)
   .setImage(url) 
 message.channel.send({embeds : [embed]})
-} else {  
+  else {  
   if(accent_color) {
   const embed = new MessageEmbed()
   .setDescription(`${user.tag} doesn't have a banner but the do have a accent color`)
