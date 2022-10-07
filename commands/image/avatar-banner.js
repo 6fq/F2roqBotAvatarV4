@@ -1,4 +1,4 @@
-const { MessageAttachment , Discord , MessageEmbed } = require('discord.js')
+const { Client , Message , MessageEmbed } = require("discord.js")
 const axios = require("axios")
 
 module.exports = {
