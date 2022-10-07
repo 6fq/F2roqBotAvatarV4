@@ -30,14 +30,14 @@ if(banner){
   .setColor(message.member.displayHexColor)
   .setDescription(`${user.tag}'s Banner`)
   .setImage(url) 
-message.channel.send(embed)
+message...({embeds : [embed]})
 } else {  
   if(accent_color) {
   const embed = new MessageEmbed()
   .setDescription(`${user.tag} doesn't have a banner but the do have a accent color`)
   .setImage(accent_color.url)
      .setColor(accent_color)
-   message.channel.send(embed)
+message...({embeds : [embed]})
   } else 
     return message.channel.send(`${user.tag} does not have a banner not a accent color!`)
 
