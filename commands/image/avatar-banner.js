@@ -1,4 +1,5 @@
-onst { Client , Message , MessageEmbed } = require("discord.js")
+```js
+const { Client , Message , MessageEmbed } = require("discord.js")
 const axios = require("axios")
 
 module.exports = {
@@ -31,7 +32,7 @@ if(banner){
   .setDescription(`${user.tag}'s Banner`)
   .setImage(url) 
 message.channel.send({embeds : [embed]})
-  else {  
+} else {  
   if(accent_color) {
   const embed = new MessageEmbed()
   .setDescription(`${user.tag} doesn't have a banner but the do have a accent color`)
@@ -46,4 +47,4 @@ message.channel.send({embeds : [embed]})
 
   
   },
-};
+};```
